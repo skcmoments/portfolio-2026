@@ -2,7 +2,7 @@
 
 Welcome to my professional portfolio. This project showcases a collection of 10 technical applications ranging from secure authentication systems to real-time API integrations. 
 
-**🚀 Live Demo:** [Insert Your Vercel Link Here]
+**🚀 Live Demo:** https://skcmoments.github.io/portfolio-2026/
 
 ## 👤 About Me
 I am an **Intermediate Web Developer** based in Adelaide, Australia, specializing in performant frontend architectures and systems reliability. I bridge the gap between complex logic and intuitive user experiences.
