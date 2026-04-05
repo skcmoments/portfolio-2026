@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin | Intermediate Web Developer</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-flex">
+            <div class="logo">SACHIN<span>.DEV</span></div>
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="theme-switch-wrapper">
+                    <span class="mode-label">Light</span>
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="slider round"></div>
+                    </label>
+                    <span class="mode-label">Dark</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero container">
+        <div class="hero-inner">
+            <span class="badge">Intermediate Web Developer</span>
+            <h1>Crafting <span class="text-gradient">Seamless Interfaces.</span></h1>
+            <h2 class="typing-container">I am a <span id="typed"></span><span class="cursor">|</span></h2>
+            <p class="hero-desc">
+                Building performant, user-centric web applications. I specialize in turning complex logic into intuitive frontend experiences with modern tech stacks.
+            </p>
+            <div class="btn-group">
+                <a href="#projects" class="btn btn-primary">Browse My Work</a>
+                <a href="#" class="btn btn-outline">Download CV</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="skills" class="container section">
+        <h2 class="section-title">Technical Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <div class="skill-icon">🎨</div>
+                <h3>Frontend Mastery</h3>
+                <ul class="skill-list">
+                    <li>JavaScript (ES6+)</li>
+                    <li>React & State Management</li>
+                    <li>Tailwind CSS</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+
+            <div class="skill-category highlight">
+                <div class="skill-icon">📡</div>
+                <h3>API & Connectivity</h3>
+                <ul class="skill-list">
+                    <li>REST API Integration</li>
+                    <li>JSON Handling</li>
+                    <li>Async/Await Logic</li>
+                    <li>Local Storage Persistence</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <div class="skill-icon">🤝</div>
+                <h3>Problem Solving</h3>
+                <ul class="skill-list">
+                    <li>Technical Debugging</li>
+                    <li>Version Control (Git)</li>
+                    <li>Performance Auditing</li>
+                    <li>Component-Based UI</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container section">
+        <h2 class="section-title">Project Library</h2>
+        
+        <div class="filter-group">
+            <button class="filter-btn active" data-target="all">All Work</button>
+            <button class="filter-btn" data-target="logic">Logic Apps</button>
+            <button class="filter-btn" data-target="api">API Driven</button>
+            <button class="filter-btn" data-target="ui">UI/UX Systems</button>
+        </div>
+
+        <div class="project-grid" id="project-container">
+            <div class="project-card" data-category="logic">
+                <div class="project-info">
+                    <span class="category-tag">Logic App</span>
+                    <h3>Smart To-Do System</h3>
+                    <p>Task manager with edit/delete flows and status filtering (Pending/Completed). Uses Local Storage for persistence.</p>
+                    <div class="tech-stack"><span>JS</span><span>Local Storage</span></div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="api">
+                <div class="project-info">
+                    <span class="category-tag">API Integration</span>
+                    <h3>Weather Dynamics</h3>
+                    <p>Real-time weather tracking featuring city search, 5-day forecasts, and dynamic loading spinners.</p>
+                    <div class="tech-stack"><span>OpenWeather API</span><span>JS</span></div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="logic">
+                <div class="project-info">
+                    <span class="category-tag">Logic App</span>
+                    <h3>Intellect Quiz</h3>
+                    <p>A timed quiz engine with randomized questions, score tracking, and an instant restart feature.</p>
+                    <div class="tech-stack"><span>State Management</span><span>Timers</span></div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="logic">
+                <div class="project-info">
+                    <span class="category-tag">Logic App</span>
+                    <h3>Expense Analytics</h3>
+                    <p>Financial tool to track income and spending with real-time balance calculations and monthly charts.</p>
+                    <div class="tech-stack"><span>Chart.js</span><span>JS Logic</span></div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="api">
+                <div class="project-info">
+                    <span class="category-tag">API Integration</span>
+                    <h3>CineSearch Hub</h3>
+                    <p>Movie discovery engine with posters, ratings, and a "Save to Favorites" feature using Local Storage.</p>
+                    <div class="tech-stack"><span>TMDB API</span><span>CSS Grid</span></div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="logic">
+                <div class="project-info">
+                    <span class="category-tag">Logic App</span>
+                    <h3>QuickNotes</h3>
+                    <p>Note-taking app with search functionality, categorization, and seamless edit/delete capabilities.</p>
+                    <div class="tech-stack"><span>JS Classes</span><span>Filters</span></div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="ui">
+                <div class="project-info">
+                    <span class="category-tag">UI/UX System</span>
+                    <h3>Luxe Shop UI</h3>
+                    <p>E-commerce product listing with a functional cart system, total price calculation, and quantity updates.</p>
+                    <div class="tech-stack"><span>DOM Manipulation</span><span>UI Design</span></div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="ui">
+                <div class="project-info">
+                    <span class="category-tag">UI/UX System</span>
+                    <h3>Secure Auth Portal</h3>
+                    <p>Frontend implementation of a secure Login/Signup system with advanced form validation and hashed-session concepts.</p>
+                    <div class="tech-stack"><span>Node/Express</span><span>Bcrypt</span></div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="api">
+                <div class="project-info">
+                    <span class="category-tag">API Integration</span>
+                    <h3>FlavorFinder</h3>
+                    <p>Search recipes by name or ingredients. Displays step-by-step instructions with favorite bookmarking.</p>
+                    <div class="tech-stack"><span>Spoonacular API</span><span>Local Storage</span></div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="ui">
+                <div class="project-info">
+                    <span class="category-tag">UI/UX System</span>
+                    <h3>Momentum Social</h3>
+                    <p>Mini social feed with post creation, like/delete interactions, and unique user timestamps.</p>
+                    <div class="tech-stack"><span>Real-time Logic</span><span>Timestamps</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section id="contact" class="container section">
+    <div class="contact-card">
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="contact-subtitle text-center">Open to Intermediate Web Developer or IT Support roles in Adelaide.</p>
+        
+        <div class="contact-grid">
+            <div class="social-box">
+                <a href="https://www.linkedin.com/in/sachin-kadel-k-c-3583451b8/" target="_blank" class="social-link">LinkedIn →</a>
+                <a href="https://github.com/skcmoments" target="_blank" class="social-link">GitHub →</a>
+                <a href="mailto:sachinkadel1998@gmail.com" class="social-link">sachinkadel1998@gmail.com</a>
+            </div>
+            
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Tell me about your project or team..." required></textarea>
+                <button type="submit" class="btn btn-primary w-full">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="container text-center py-10 border-t border-slate-100">
+    <p class="text-sm text-slate-400">© 2026 Designed & Developed by Sachin Kadel K.C. | Adelaide, Australia</p>
+</footer>
+
+    <footer class="container text-center py-10 border-t border-slate-100">
+        <p class="text-sm text-slate-400">© 2026 Built by Sachin. Powered by HTML, CSS, and JS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
